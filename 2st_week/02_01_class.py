@@ -7,7 +7,6 @@ class Person:
         print("hi hi", self.name, "입니다.")
 #    pass # 아무런 내용이 없다는 의미
 
-
 person_1 = Person("유재석") # 클래스 생성자를 통해 하나의 객체를 만들겠다는 의미, hi hi <__main__.Person object at 0x1024667b0>
 print(person_1) # <__main__.Person object at 0x1024667b0>
 print(person_1.name) # 유재석
